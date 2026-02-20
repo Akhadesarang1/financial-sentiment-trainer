@@ -97,7 +97,7 @@ PHRASE_FILES = [
 ID2LABEL = {0: "Neutral", 1: "Bullish", 2: "Bearish", 3: "Strongly Bullish"}
 LABEL2ID = {v: k for k, v in ID2LABEL.items()}
 
-def load_all_data():
+def load_all_data(): 
     """Loads and combines data from local files and multiple online sources with consistent labeling."""
     logging.info("Loading and combining datasets...")
     local_rows = []
