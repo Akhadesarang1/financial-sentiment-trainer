@@ -1,4 +1,3 @@
-
 # This script implements a full training pipeline for financial sentiment classification
 # using XLM-RoBERTa with the following steps:
 #
