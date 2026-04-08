@@ -112,6 +112,7 @@ def load_all_data():
             logging.error(f"Local file not found: {path}. Skipping.")
     local_df = pd.DataFrame(local_rows)
 
+ 
     online_dfs = []
     try:
         hf_df1 = pd.DataFrame(load_dataset("TimKoornstra/financial-tweets-sentiment")["train"])
